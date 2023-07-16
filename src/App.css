@@ -21,3 +21,14 @@
 .right-container{
     display: flex;
 }
+
+@media screen and (min-width:680px) and (max-width:1151px) {
+    .content-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
