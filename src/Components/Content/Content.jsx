@@ -6,14 +6,14 @@ import play from "../../assets/Icons/play-course.svg";
 import timer from "../../assets/Icons/timer.svg";
 import alertTimer from "../../assets/Icons/timer-alert.svg";
 import scholar from "../../assets/Icons/scholar.svg";
-import razorPay from "../../assets/Icons/razorPay.svg";
+
 
 const Content = () => {
   return (
     <>
       <div className="header">
         <p className="header-text">Access curated courses worth</p>
-        <p className="header-text"> ₹ 18,500 <span className="strike-off-text"></span> at just <span class="highlight"> ₹ 99 </span> per year! </p>
+        <p className="header-text"> ₹ 18,500&nbsp; <span className="strike-off-text"></span> at just&nbsp;<span class="highlight">₹ 99&nbsp; </span> per year! </p>
       </div>
       <div className="pointers">
         <div className="pointer1">

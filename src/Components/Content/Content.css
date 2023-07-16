@@ -5,7 +5,8 @@
 }
 
 .header-text{
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
     margin:0.5rem 0; 
     display: flex;
     position: relative;
@@ -14,7 +15,7 @@
 .strike-off-text{
 position: absolute;
 border-bottom:4.5px solid var(--danger2);
-width:7.7rem;
+width:8.4rem;
 top:1rem;
 margin-right:0.5rem;
 }
@@ -40,4 +41,8 @@ margin-right:0.5rem;
 
 .pointers img{
     width: 2.5rem;
+}
+
+.pointers p{
+    font-size: 1.6rem;
 }

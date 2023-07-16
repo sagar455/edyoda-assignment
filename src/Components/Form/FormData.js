@@ -1,0 +1,44 @@
+const formData = [ 
+    {
+        id:1,
+        months:12,
+        subscription:18500,
+        price:99,
+        monthlyPrice:8,
+        expired:true,
+        recommended:false,
+        disabled:true
+    },
+    {
+        id:2,
+        months:12,
+        subscription:18500,
+        price:179,
+        monthlyPrice:15,
+        expired:false,
+        recommended:true,
+        disabled:false
+    },
+    {
+        id:3,
+        months:6,
+        subscription:9000,
+        price:149,
+        monthlyPrice:15,
+        expired:false,
+        recommended:false,
+        disabled:false
+    },
+    {
+        id:4,
+        months:3,
+        subscription:4500,
+        price:99,
+        monthlyPrice:33,
+        expired:false,
+        recommended:false,
+        disabled:false
+    }
+]
+
+export default formData;
