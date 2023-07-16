@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Content from "./Components/Content/Content";
-// import Form from "./Components/Form/Form";
+import Form from "./Components/Form/Form";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Content />
         </div>
         <div className="right-content-container">
-          {/* <Form /> */}
+          <Form />
         </div>
       </div>
     </div>
