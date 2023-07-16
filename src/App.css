@@ -4,7 +4,7 @@
 
 .content-container{
     display: flex;
-    height: 100vh;
+    height: fit-content;
     padding:1rem;
     justify-content: space-evenly;
     background-image: url("./assets/background/BackGround.jpg");
@@ -16,4 +16,8 @@
     color:var(--text1);
     margin:2rem 5rem;
     /* width:20rem; */
+}
+
+.right-container{
+    display: flex;
 }
