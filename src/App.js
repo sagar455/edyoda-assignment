@@ -4,6 +4,7 @@ import Content from "./Components/Content/Content";
 import Form from "./Components/Form/Form";
 
 function App() {
+  console.log("hello")
   return (
     <div className="App">
       <Navbar />
